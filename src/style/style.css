@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Navbar styles*/
+
+.navbar-brand .logo{
+    width: 100px;
+}
+
+.navbar-collapse{
+    max-height: 0px;
+    overflow: hidden;
+    transition: all .4s;
+    
+}
+.show{
+    max-height: 300px;
+}
+
+@media(min-width:768px){
+    .navbar-collapse{
+        overflow: visible;
+    }
+    
+}
+
+/*Navbar styles*/
+/*banner styles*/
+.banner-row{
+    height: 80vh;
+    position: relative;
+}
+.banner-left{
+    background-color: rgba(231, 250, 254, 1);
+    
+}
+.banner-left .text-justify{
+    font-size: 18px;
+}
+
+.banner-btns{
+   background-color:  rgba(0, 0, 0, 0.05);
+   border-radius: 30px;
+   
+}
+.banner-btns span{
+    font-size: 14px;
+}
+.profile img{
+    width: 50px;
+    height: 50px;
+   margin-right: 20px;
+   
+}
+.profile .text h4{
+    font-size: 14px;
+}
+.banner-row .badge-pic{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 1;
+    top: 70px;
+    left: 600px;
+}
+/*banner styles*/
+
+.category-card{
+    width: 180px;
+    height: 202px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.category-card img{
+    width: 100px;
+    height: 100px;
+    
+    
+}
+#category-button{
+    background-color: rgba(231, 250, 254, 1);
+    border: none;
+    border-radius: 16px;
+    padding: 0px 20px;
+}
