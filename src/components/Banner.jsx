@@ -1,6 +1,4 @@
 import pic from "../img/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png"
-import TimerIcon from '../img/Timer.png'
-import ForkknifeIcon from '../img/ForkKnife.png'
 import image from '../img/image 14.png'
 import profImg from '../img/Ellipse 2.png'
 import vector from "../img/Vector.png"
@@ -18,8 +16,8 @@ return (
                 <h1 className="text-black display-2 fw-bold mt-3">{context.BannerState.title}</h1>
                 <p className="text-justify my-5">{context.BannerState.text} </p>
                 <div className="badges">
-                    <span className="badge banner-badge text-center px-3 user-select-none  me-2"><img src={TimerIcon} alt="" /><span className="ms-2">{context.BannerState.time}</span></span>
-                    <span className="badge banner-badge text-center px-3 user-select-none "><img src={ForkknifeIcon} alt="" /><span className="ms-2">{context.BannerState.food}</span></span>
+                    <span className="badge banner-badge text-center px-3 user-select-none  me-2"><img src={context.TimerIcon} alt="" /><span className="ms-2">{context.BannerState.time}</span></span>
+                    <span className="badge banner-badge text-center px-3 user-select-none "><img src={context.ForkknifeIcon} alt="" /><span className="ms-2">{context.BannerState.food}</span></span>
                 </div>
                 <div className="banner-footer d-flex justify-content-between mt-5">
                     <div className="profile d-flex align-items-center">
