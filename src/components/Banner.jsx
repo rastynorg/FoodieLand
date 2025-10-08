@@ -39,7 +39,7 @@ return (
             
         </div>
     </div>
-    <div className="mt-5 py-2"></div>
+    
     </>
   );}
 
