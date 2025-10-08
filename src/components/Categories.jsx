@@ -3,7 +3,7 @@ import FoodielandContext from "../context";
 
 const Categories = () => {
     const context=useContext(FoodielandContext)
-    return ( <div className="mt-5">
+    return ( <div className="my-5">
         <div className="container">
             <div className=" mb-5 d-flex justify-content-between">
                 <h1>Categories</h1>

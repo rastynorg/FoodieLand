@@ -39,12 +39,21 @@
     font-size: 18px;
 }
 
-.banner-btns{
+@media(max-width:1400px) {
+    .banner-left{
+        border-radius: 2rem;
+    }
+}
+
+.banner-badge{
    background-color:  rgba(0, 0, 0, 0.05);
    border-radius: 30px;
+   border:none;
+   color: rgba(0, 0, 0, 0.6);
+   padding: 7px 0px;
    
 }
-.banner-btns span{
+.banner-badge span{
     font-size: 14px;
 }
 .profile img{
