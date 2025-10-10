@@ -84,6 +84,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
     
 }
 .category-card img{
@@ -168,3 +169,37 @@
 
 
 /*RecipeCard Styles*/
+
+/*ChefBanner Styles*/
+.chef-banner-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.chef-banner-left h1{
+  font-size: 48px;
+  font-weight: bold;
+}
+.chef-banner-left p{
+  color: gray;
+  font-size: 16px;
+}
+.chef-banner-left button{
+  font-size: 14px;
+  padding: 20px 40px ;
+}
+
+.chef-banner-right{
+  background: linear-gradient(rgba(231, 249, 253, 0),rgba(231, 249, 253, 1));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media(max-width:776px){
+  .chef-banner-left{
+    text-align: center;
+  }
+  
+}
+
+/*ChefBanner Styles*/

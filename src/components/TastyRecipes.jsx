@@ -13,7 +13,7 @@ const TastyRecipes = () => {
         <div className="container">
             <div className="row">
                 
-               {context.recipesState.map((p)=>(<div className="col-lg-4 col-md-6 mt-5" >{!p.type?(<img src={p.image} className="w-100 h-100"></img>):(<RecipeCard image={p.image} time={p.time} title={p.title} type={p.type}/>)}</div>))}
+               {context.recipesState.map((p)=>(<div className="col-lg-4 col-md-6 mt-5 my-2" >{!p.type?(<img src={p.image} className="w-100 h-100"></img>):(<RecipeCard image={p.image} time={p.time} title={p.title} type={p.type}/>)}</div>))}
                 
             </div>
         </div>

@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import FoodielandContext from "../context";
+import { Link } from "react-router-dom";
 
 const Categories = () => {
     const context=useContext(FoodielandContext)
