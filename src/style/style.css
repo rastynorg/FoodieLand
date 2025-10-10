@@ -203,3 +203,20 @@
 }
 
 /*ChefBanner Styles*/
+
+/*Instagram section*/
+.instagram-section .row{
+  background: linear-gradient(rgba(231, 249, 253, 0),rgba(231, 249, 253, 1));
+}
+.instagram-section .text-center h1{
+  font-size: 48px;
+  font-weight: bold;
+  
+}
+.instagram-section .text-center p{
+font-size: 16px;
+color: gray;
+margin-top: 50px;
+}
+
+/*Instagram section*/
