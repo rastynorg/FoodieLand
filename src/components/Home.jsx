@@ -11,6 +11,7 @@ import post3 from "../img/Post3.png"
 import post4 from "../img/Post4.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import SubscribeBanner from "./SubscribeBanner";
 
 
 const Home = () => {
@@ -27,7 +28,7 @@ const Home = () => {
         <div className="container">
             <div className="row">
                 
-               {context.recipesState.map((p)=>(<div className="col-lg-4 col-md-6 mt-5 my-2" >{!p.type?(<img src={p.image} className="w-100 h-100"></img>):(<RecipeCard image={p.image} time={p.time} title={p.title} type={p.type}/>)}</div>))}
+               {context.tastyRecipesState.map((p)=>(<div className="col-lg-4 col-md-6 mt-5 my-2" >{!p.type?(<img src={p.image} className="w-100 h-100"></img>):(<RecipeCard color1="rgba(231, 249, 253, 0)" color2="rgba(231, 249, 253, 1)" image={p.image} time={p.time} title={p.title} type={p.type}/>)}</div>))}
                 
             </div>
         </div>
@@ -52,6 +53,35 @@ const Home = () => {
         </div>
     </div>
     {/*Instagram Section */}
+
+    {/*DeliciousRecipes Section*/}
+
+    <div className="mt-5">
+        <div className="container ">
+            <div className="row delicious-title align-items-center">
+                <div className="col-6">
+                    <h1>Try this delicious recipe to make your day</h1>
+               
+                </div>
+                <div className="col-6">
+                    <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+                </div>
+            </div>
+            <div className=" row mt-5">
+                {context.deliciousRecipesSTate.map((p)=>(<div className="col-lg-3 col-md-6 mt-5 my-2" ><RecipeCard image={p.image} time={p.time} title={p.title} type={p.type}/></div>))}
+
+
+            </div>
+        </div>
+    </div>
+
+    {/*DeliciousRecipes Section*/}
+
+    <SubscribeBanner/>
+
+    
+
+    
     </>);
 }
  

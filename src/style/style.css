@@ -105,7 +105,6 @@
 .recipe-card {
   border-radius: 1rem;
   overflow: hidden;
-  background:linear-gradient(rgba(231, 249, 253, 0),rgba(231, 249, 253, 1));
   transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
 
@@ -220,3 +219,77 @@ margin-top: 50px;
 }
 
 /*Instagram section*/
+
+
+/*DeliciousRecipes Section*/
+
+.delicious-title h1{
+  font-size:48px ;
+  font-weight: bold;
+}
+.delicious-title p{
+  font-size:16px ;
+}
+
+/*DeliciousRecipes Section*/
+
+/* SubscribeBanner Styles*/
+
+.subscribe-container{
+  background-color: rgba(231, 249, 253, 1);
+  height: 442px;
+  border-radius: 60px;
+  margin-top: 150px;
+  position: relative;
+  
+}
+.Subscribe-pic1{
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   border-radius: 60px;
+   
+
+}
+.Subscribe-pic2{
+ position: absolute;
+ bottom: 0px;
+ right: 0px;
+ border-radius: 60px;
+ 
+}
+.subscribe-container .text-center{
+  padding-top: 100px;
+
+}
+.subscribe-container .text-center h1{
+  font-size:48px ;
+  font-weight: bold;
+}
+.subscribe-container .text-center p{
+  font-size:16px ;
+  color: gray;
+}
+.subscribe-container form {
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 24px;
+  width: 40%;
+}
+.subscribe-container form input{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+}
+.subscribe-container form button{
+  padding: 18px 50px;
+  border-radius: 16px;
+}
+.subscribe-container form input:focus{
+  border: none;
+  outline: none;
+}
+
+
+/* SubscribeBanner Styles*/

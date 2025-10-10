@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import FoodielandContext from "../context";
 
-const RecipeCard = ({ image, title, time, type }) => {
+const RecipeCard = ({ image, title, time, type,color1,color2 }) => {
   const context=useContext(FoodielandContext)
   const [isFavorite, setIsFavorite] = useState(false);
 
@@ -10,7 +10,7 @@ const RecipeCard = ({ image, title, time, type }) => {
   };
 
   return (
-    <div className="recipe-card card shadow-sm border-0 d-flex h-100 p-3">
+    <div className="recipe-card card shadow-sm border-0 d-flex h-100 p-3" style={{background:`linear-gradient(${color1},${color2})`}}>
       <div className="position-relative">
         <img src={image} alt={title} className="card-img-top recipe-image rounded-5" />
 
