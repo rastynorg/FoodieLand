@@ -293,3 +293,9 @@ margin-top: 50px;
 
 
 /* SubscribeBanner Styles*/
+.footer-container{
+  margin-top: 100px;
+}
+.footer-container img{
+  width: 110px;
+}

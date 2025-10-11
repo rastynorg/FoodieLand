@@ -12,6 +12,7 @@ import post4 from "../img/Post4.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import SubscribeBanner from "./SubscribeBanner";
+import Footer from "./Footer";
 
 
 const Home = () => {
@@ -78,6 +79,8 @@ const Home = () => {
     {/*DeliciousRecipes Section*/}
 
     <SubscribeBanner/>
+
+    <Footer/>
 
     
 
