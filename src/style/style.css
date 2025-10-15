@@ -293,9 +293,27 @@ margin-top: 50px;
 
 
 /* SubscribeBanner Styles*/
+
+/* Footer Styles */
 .footer-container{
   margin-top: 100px;
 }
 .footer-container img{
   width: 110px;
 }
+/* Footer Styles */
+
+/* ContactPage Styles*/
+.contact-container h1{
+  font-size: 64px;
+}
+.contact-container .poster{
+  background: linear-gradient(rgba(231, 249, 253, 0),rgba(231, 249, 253, 1));
+  border-radius: 30px;
+}
+
+.contact-container form textarea{
+  resize: none;
+  height: 188px;
+}
+/* ContactPage Styles*/

@@ -27,6 +27,8 @@ import DR7 from "./img/DR7.png"
 import DR8 from "./img/DR8.jpg"
 
 import FoodielandContext from "./context";
+import Footer from "./components/Footer";
+import ContactPage from "./components/ContactPage";
 
 
 const App = () => {
@@ -55,7 +57,9 @@ const App = () => {
     <Navbar/>
     <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/Contact" element={<ContactPage/>}/>
     </Routes>
+    <Footer/>
     
     </FoodielandContext.Provider >);
 }
